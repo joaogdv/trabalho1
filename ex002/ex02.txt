@@ -1,0 +1,5 @@
+const valorA = parseInt(prompt("digite a primeira nota:"))
+const valorB = parseInt(prompt("digite a segunda nota:"))
+const valorC = parse(prompt("digite a terceira nota:"))
+const resultado = (valorA + valorB + valorC) / 3
+console.log(resultado)
