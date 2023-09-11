@@ -1,4 +1,5 @@
-const valorA = parseFloat(prompt("qual a altura do retangulo?"))
-const valorB = parseFloat(prompt("qual a largura do retangulo?"))
-const resultado = valorA * valorB
+const valorA = parseInt(prompt("digite a primeira nota:"))
+const valorB = parseInt(prompt("digite a segunda nota:"))
+const valorC = parseInt(prompt("digite a terceira nota:"))
+const resultado = (valorA + valorB + valorC) / 3
 console.log(resultado)
