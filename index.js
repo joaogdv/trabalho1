@@ -1,5 +1,8 @@
-const valorA = parseInt(prompt("digite a primeira nota:"))
-const valorB = parseInt(prompt("digite a segunda nota:"))
-const valorC = parseInt(prompt("digite a terceira nota:"))
-const resultado = (valorA + valorB + valorC) / 3
+const valorA = parseFloat(prompt("valor principal:"))
+const valorB = parseFloat(prompt("taxa de juros:"))
+const valorC = parseFloat(prompt("tempo em anos:"))
+const resultado = valorA * valorB * valorC
 console.log(resultado)
+
+const soma = valorA + resultado
+console.log(soma)
